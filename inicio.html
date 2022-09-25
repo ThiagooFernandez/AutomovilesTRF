@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Automoviles TRF</title>
 
-   
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="icon" type="image/jpg" href="./img/favicon.png"/>
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/blog.css">
@@ -15,26 +17,27 @@
 <body>
 
     <!--Header - menu-->
-    <header>
-
-        <div class="header-content">
-
-            <div class="logo">
-                <a href="/inicio.html"><h1><bb>Automoviles</bb><b>TRF</b></h1></a>
-                
+    <header class="color-fondo">
+        <nav class="navbar navbar-expand-lg  header-content">
+            <div class="container-fluid logo ">
+              <a class="navbar-brand" href="/inicio.html"><h1><b>Automoviles</b> <bb>TRF</bb></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-s"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link bg-light navbar-light navbar-l" aria-current="page" href="/inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bg-light navbar-light" href="/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
+    </header> 
 
-            <div class="menu" id="show-menu">
-
-                <nav>
-                    <ul>
-                        <li><a href="inicio.html"> <i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="contacto.html"> <i class="fas fa-headset"></i> Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
 
 
 
@@ -87,14 +90,14 @@
             <div class="post" data-category="mercedes">
 
                 <div class="ctn-img"><img src="/img/articulos/mercedes/mercedes1.jpeg" alt="Mercedes"></div>
-                <h2>Mercedes-Benz Clase A250 </h2>
-                <span>Año: 2014</span>
-                <span>Kilometros: 133.000 mil</span>
+                <h2>Mercedes-Benz Clase A250</h2>
+                <span>Año: 2019</span>
+                <span>Kilometros: 35.000 mil</span>
                 <span>Motor: 2.0</span>
-                <span>Precio: U$S 40.000</span>
+                <span>Precio: U$S 45.500</span>
                 <ul class="ctn-tag">
                     <li>Mercedes Benz</li>
-                    <li>2014</li>
+                    <li>2019</li>
                 </ul>
                 <a href="/paginas/Mercedes.html"><button>leer más</button></a>
 
@@ -180,7 +183,9 @@
     </div>
 
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
     
 </body>
 </html>
